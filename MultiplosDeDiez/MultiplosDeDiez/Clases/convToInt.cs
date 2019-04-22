@@ -10,7 +10,7 @@ namespace MultiplosDeDiez.Clases
     {
         public static List<int> numList = new List<int>();
 
-        public static void whatever()
+        public static void numConversion()
         {
             for (int i = 0; i < readFromFile.stringList.Count; i++)
             {
@@ -18,14 +18,10 @@ namespace MultiplosDeDiez.Clases
 
                 for (int p = 0; p < temp.Length; p++)
                 {
-                    int z = Convert.ToInt16(temp[p]);
-                    numList.Add(z);
+                    int num = Convert.ToInt16(temp[p]);
+                    numList.Add(num);
                 }
             }
-            //foreach (var num in numList)
-            //{
-            //    Console.WriteLine(num);
-            //}
         }
     }
 }

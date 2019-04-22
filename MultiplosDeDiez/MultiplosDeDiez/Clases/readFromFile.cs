@@ -13,6 +13,10 @@ namespace MultiplosDeDiez.Clases
         public static void numbers()
         {
             stringList = File.ReadAllLines(@"D:\santi\Microsoft Visual Studio Community\VS Projects\Segundo Semestre\POO\Prácticas\Multiplos (GitHub)\numbers.txt").ToList();
+            foreach (string line in stringList) //Remember to replace the above directory with the one that holds
+            {                                   //the file in your local computer's drive.
+                Console.WriteLine(line);
+            }
         }
     }
 }

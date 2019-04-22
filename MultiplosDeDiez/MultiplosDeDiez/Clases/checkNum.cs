@@ -10,7 +10,7 @@ namespace MultiplosDeDiez.Clases
     {
         public static int counter;
 
-        public static void checker()
+        public static int checker()
         {
             foreach (int currentNum in convToInt.numList)
             {
@@ -18,11 +18,8 @@ namespace MultiplosDeDiez.Clases
                 {
                     counter++;
                 }
-                else
-                {
-                    
-                }
             }
+            return counter;
         }
     }
 }

@@ -11,10 +11,7 @@ namespace MultiplosDeDiez
     {
         static void Main(string[] args)
         {
-            readFromFile.numbers();
-            convToInt.whatever();
-            checkNum.checker();
-            Console.WriteLine(checkNum.counter);
+            execute.exec();
             Console.ReadKey();
         }
     }

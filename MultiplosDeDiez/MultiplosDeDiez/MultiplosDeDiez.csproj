@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Clases\checkNum.cs" />
     <Compile Include="Clases\convToInt.cs" />
+    <Compile Include="Clases\execute.cs" />
     <Compile Include="Clases\readFromFile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
