@@ -13,6 +13,8 @@ namespace MultiplosDeDiez
         {
             readFromFile.numbers();
             convToInt.whatever();
+            checkNum.checker();
+            Console.WriteLine(checkNum.counter);
             Console.ReadKey();
         }
     }

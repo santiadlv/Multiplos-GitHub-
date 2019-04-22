@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\checkNum.cs" />
     <Compile Include="Clases\convToInt.cs" />
     <Compile Include="Clases\readFromFile.cs" />
     <Compile Include="Program.cs" />
