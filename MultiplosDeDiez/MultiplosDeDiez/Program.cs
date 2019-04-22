@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MultiplosDeDiez.Clases;
 
 namespace MultiplosDeDiez
 {
@@ -10,6 +11,9 @@ namespace MultiplosDeDiez
     {
         static void Main(string[] args)
         {
+            readFromFile.numbers();
+            convToInt.whatever();
+            Console.ReadKey();
         }
     }
 }
